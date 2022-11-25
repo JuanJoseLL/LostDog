@@ -6,15 +6,22 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alostdogdiscretas.HelloController">
-   <children>
-      <Button fx:id="buttonEmpezar" layoutX="220.0" layoutY="246.0" mnemonicParsing="false" onAction="#changeA" prefHeight="26.0" prefWidth="153.0" text="Calcular camino minimo" />
-      <TextField fx:id="nombre1" alignment="TOP_CENTER" layoutX="217.0" layoutY="147.0" onAction="#load" promptText="Ingrese su nombre" />
-      <Label layoutX="118.0" layoutY="57.0" text="¡Bienvenido a encuentra tu mascota!">
-         <font>
-            <Font name="Marker Felt Thin" size="28.0" />
-         </font>
-      </Label>
-      <Button fx:id="triggerBFS" layoutX="242.0" layoutY="200.0" mnemonicParsing="false" onAction="#depurar" text="Depurar caminos" />
-   </children>
-</AnchorPane>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B3D1CD; -fx-background-color: ;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alostdogdiscretas.HelloController">
+      <children>
+         <TextField fx:id="nombre1" alignment="TOP_CENTER" layoutX="217.0" layoutY="147.0" onAction="#load" promptText="Ingrese su nombre" />
+         <Button fx:id="buttonEmpezar" layoutX="222.0" layoutY="297.0" mnemonicParsing="false" onAction="#changeA" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #8BA1CD;" text="Calcular camino minimo">
+            <font>
+               <Font name="Marker Felt Thin" size="28.0" />
+               <Font name="System Italic" size="12.0" />
+            </font></Button>
+         <Label layoutX="83.0" layoutY="70.0" text="¡Bienvenido a encuentra tu mascota!" textFill="#390e61">
+            <font>
+               <Font name="Palatino" size="28.0" />
+            </font>
+         </Label>
+         <Button fx:id="triggerBFS" layoutX="246.0" layoutY="237.0" mnemonicParsing="false" onAction="#depurar" style="-fx-background-color: #8BA1CD;" text="Depurar caminos">
+            <font>
+               <Font name="System Italic" size="12.0" />
+            </font></Button>
+      </children>
+   </AnchorPane>

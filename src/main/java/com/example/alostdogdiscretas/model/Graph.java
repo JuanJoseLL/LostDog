@@ -70,20 +70,18 @@ public class Graph {
         Vertex start = search(init);
         start.setDistance(0);
         pq.add(start);
-        int handled = 0;
+
         System.out.println(search("Juan Jose"));
         while (!pq.isEmpty() ){
             Vertex current = pq.poll();
                int vertWeight = current.getDistance();
                 if (!current.isKnown()) {
-                    handled++;
+
                     current.setKnown(true);
                     compAdjEdges(current, vertWeight);
                     if (current.getName().equals(finish)) {
-                        System.out.println("Personas a las cuales preguntar: ");
                         printPath(current);
-                        System.out.println();
-                        System.out.println(distance= String.valueOf(current.getDistance()));
+                        distance= String.valueOf(current.getDistance());
                         return;
                     }
                 }
