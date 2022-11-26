@@ -1,4 +1,7 @@
-# Estos son los nombres Con los cuales se puede realizar la busqueda
+#
+El boton de depurar caminos sirve para eliminar los vertices del grafo que no tienen adyacentes
+
+Estos son los nombres Con los cuales se puede realizar la busqueda
 Ding Dong,
 Bao,
 MinLing,
