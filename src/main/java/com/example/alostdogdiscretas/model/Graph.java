@@ -70,8 +70,6 @@ public class Graph {
         Vertex start = search(init);
         start.setDistance(0);
         pq.add(start);
-
-        System.out.println(search("Juan Jose"));
         while (!pq.isEmpty() ){
             Vertex current = pq.poll();
                int vertWeight = current.getDistance();

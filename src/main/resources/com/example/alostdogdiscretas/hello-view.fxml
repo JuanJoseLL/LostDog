@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B3D1CD; -fx-background-color: ;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alostdogdiscretas.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B3D1CD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alostdogdiscretas.HelloController">
       <children>
          <TextField fx:id="nombre1" alignment="TOP_CENTER" layoutX="217.0" layoutY="147.0" onAction="#load" promptText="Ingrese su nombre" />
          <Button fx:id="buttonEmpezar" layoutX="222.0" layoutY="297.0" mnemonicParsing="false" onAction="#changeA" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #8BA1CD;" text="Calcular camino minimo">
